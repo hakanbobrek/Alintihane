@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#513434"
+    tools:context=".Kaydol">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="40dp"
+        android:text="Kayıt Ekranı"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp"
+        android:text="Kullanıcı Emaili:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="34dp"
+        android:text="Kullanıcı Şifresi:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="33dp"
+        android:text="Şifre Tekrarı:"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/kyt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="57dp"
+        android:layout_toEndOf="@+id/textView7"
+        android:ems="10"
+        android:hint="Email Adresini Giriniz"
+        android:inputType="textPersonName"
+        android:textColor="#BCB7B7" />
+
+    <EditText
+        android:id="@+id/kyt_parola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kyt_email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="58dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:ems="10"
+        android:hint="Şifre Giriniz"
+        android:inputType="textPassword"
+        android:textColor="#BCB7B7" />
+
+    <EditText
+        android:id="@+id/kyt_parolatekrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kyt_parola"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="58dp"
+        android:layout_toEndOf="@+id/textView9"
+        android:ems="10"
+        android:hint="Tekrar Şifre Giriniz"
+        android:inputType="textPassword"
+        android:textColor="#BCB7B7" />
+
+    <Button
+        android:id="@+id/kyt_kayit"
+        android:layout_width="148dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/kyt_parolatekrar"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="#494646"
+        android:text="kayıtı tamamla" />
+
+    <TextView
+        android:id="@+id/kyt_mesaj"
+        android:layout_width="178dp"
+        android:layout_height="21dp"
+        android:layout_below="@+id/kyt_kayit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:text="KAYIT MESAJI"
+        android:textColor="#BC2020"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Kyt_giris"
+        android:layout_width="160dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/kyt_mesaj"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="208dp"
+        android:backgroundTint="#494646"
+        android:text="Giriş ekranına dön" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/drawable-v24/ic_baseline_people_24.xml" value="0.3605" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_adres.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_alintiekle.xml" value="0.34408602150537637" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_alintieklemee.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_alintilar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_giris.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_hakkimizda.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_kaydol.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_kitaparama.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_menu.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_show.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/activity_splash_screen.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/main_toolbar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/hakan/AndroidStudioProjects/Alnthane/app/src/main/res/layout/menuyonlendirm.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

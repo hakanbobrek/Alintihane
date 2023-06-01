@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#513434"
+    tools:context=".Giris">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="40dp"
+        android:text="Giriş Ekranı"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="44dp"
+        android:text="Kullanıcı Bilgisi:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="31dp"
+        android:text="Kullanıcı Şifresi:"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/Grs_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="44dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:ems="10"
+        android:hint="Email Adresi Giriniz "
+        android:inputType="textPersonName"
+        android:textColor="#BCB7B7" />
+
+    <EditText
+        android:id="@+id/Grs_parola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Grs_mail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="46dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="textPassword"
+        android:textColor="#BCB7B7" />
+
+    <Button
+        android:id="@+id/Grs_giris"
+        android:layout_width="151dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#494646"
+        android:text="giriş yap"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Grs_giris"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="--------Hesabın yoksa--------"
+        android:textColor="#DD2E2E"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Grs_kaydol"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="298dp"
+        android:backgroundTint="#494646"
+        android:text="kaydol" />
+</RelativeLayout>

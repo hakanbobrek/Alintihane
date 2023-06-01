@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "936957744056",
+    "project_id": "alintihane",
+    "storage_bucket": "alintihane.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936957744056:android:652828201082922607f54d",
+        "android_client_info": {
+          "package_name": "com.hak4.alnthane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936957744056-730lnv4c9d2oikuc45va08rph2gf6ni6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz7w1NFZS4TaQCJh0BNg_Zt5LTT8-_SCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936957744056-730lnv4c9d2oikuc45va08rph2gf6ni6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
